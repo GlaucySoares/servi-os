@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(237, 241, 209);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+ 
+.bg-white {
+    color: #ffffff;
+}
+ 
+.bg-transition {
+    background-color: #146368;
+}
+ 
+.carousel {
+    width: 40%;
+    height: 40%;
+}
+ 
+.imagem {
+    position: absolute;
+    top: 15px; /* Ajuste conforme necessário */
+    left: 20px; /* Ajuste para alinhar à esquerda ou ao centro */
+    width: 80px;
+    height: 80px;
+    z-index: 110; /* Garante que a imagem fique sobre a navbar */
+    border: solid white;
+}
+ 
+.navbar {
+    position: relative; /* Garante que a imagem se posicione em relação a ela */
+    z-index: 1;
+}
+ 
+.dropdown-toggle {
+    margin-left: 100px;
+}
+ 
+ 
+.btn-outline-success {
+    border: solid white;
+}
+
+.tabela-centralizada {    /*Centraliozação da tabela */
+    margin: 20px auto;
+    border-collapse: collapse;
+    margin-left: 1%; 
+    transform: scale(2.0); /* aumenta 1.5x o tamanho original */
+    transform-origin: top center; /* opcional: onde começa o zoom */
+    font-size: 13px; /* Ajuste para o tamanho desejado */
+}
+
+.linha-superior {
+    width: 1000px;      /* mesma largura da tabela */
+    height: 60px;       /* altura do retângulo fino */
+    background-color: #146368; 
+    margin: 30px auto 10px auto; /* centraliza e dá espaço */
+    margin-left: 8.5%; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-cornelio {
+    height: 90px; /* ou outro tamanho desejado */
+    width: auto;
+    border: 3px solid white; /* 👈 borda branca de 3px */
+}
+
+
+.tabela-centralizada, 
+.tabela-centralizada th, 
+.tabela-centralizada td {
+    border: 1px solid #146368; /* cor das linhas da tabela */
+}
+
+.tabela-centralizada {
+    border-collapse: collapse; /* importante para unir as bordas */
+}
+.tabela-centralizada img {
+    width: 25px;  /* ajusta a largura da imagem */
+    height: auto; /* mantém a proporção */
+}
+ 
+.imagem-cristo {
+    position: fixed;      /* fixa na tela, mesmo ao rolar */
+    right: 500px;          /* distância do canto direito */
+    top: 39%;             /* posiciona no meio da altura */
+    transform: translateY(-50%); /* ajusta para ficar exatamente centralizado verticalmente */
+    width: 153px;         /* ajuste o tamanho conforme necessário */
+    height: auto;         /* mantém proporção */
+    z-index: 1000;        /* para ficar sobre outros elementos */
+}
+
+
+
+
+
+
+
